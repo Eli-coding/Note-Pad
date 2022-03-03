@@ -36,6 +36,27 @@ app.post('/api/notes', (req, res) =>{
  });
 });
 
+// app.delete('/api/notes/:id', (req,res)=>{
+//    save readfile to var and create empty array
+//     let savedNote = JSON.parse(fs.readFile("./db/db.json", utf-8));
+    
+//     let undeletedNote = [];
+//     let deleted = req.params.id;
+//     fs.readFile("./db/db.json", JSON.stringify(data) ,(err) =>{
+//         if(err){
+//             console.log(err);
+//         } else {
+//             console.log("Note deleted")
+//             for (i = 0; i < savedNote.length; i++ ){
+//                if (deleted === savedNote[i]){
+//                specify id 
+//                }
+//             }
+//         }
+     // });
+
+//});
+
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "./public/index.html"));
 });
