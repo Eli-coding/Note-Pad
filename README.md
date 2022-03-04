@@ -21,6 +21,8 @@ node index.js
 
 ## Usage
 
+![Screenshot (120)](https://user-images.githubusercontent.com/80432031/156679972-2c173845-a36f-4544-b337-2cabb82bd1fb.png)
+
 You are welcome to use it.
 
 ## Licenses
